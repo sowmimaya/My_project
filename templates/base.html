@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cartoonizer Web App</title>
+    <!--<link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
+    <style>
+    body,html{
+      margin:0;
+      height:100%;
+    }
+
+    .float-container {
+      border: 3px solid #fff;
+      padding: 20px;
+  }
+  
+  .float-child {
+      width: 30%;
+      float: left;
+      padding: 20px;
+      border: 2px solid red;
+  }  
+
+    
+
+    .bg-image{
+      background-image: url("/images/white.jpg");
+      height: 100%;
+      position:relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+
+    
+     .navbar-nav{
+      position:relative;
+      margin-left:47em ;
+      font-size:1.1em;
+      font-weight:500;
+    }
+    
+
+    .navbar-nav .btn{
+      width: 100px;
+      height: 40px;
+      background: transparent;
+      border: 2px  solid black;
+      outline: 1px;
+      border-radius: 6px;
+      transform-origin: left;
+      cursor: pointer;
+      font-size: 1.1em;
+      color: black;
+      font-weight: 500;
+      margin-left: 10px;
+  }
+
+    .navbar-nav .btn:hover{
+      background: white;
+      color: #162938;
+    }
+
+    h1{
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 30px "Lato", sans-serif;
+      color: white;
+      text-align:center;
+      margin-top:250px;
+    }
+
+    </style>
+</head>
+
+<body>
+  <div id="intro" class="bg-image shadow-2-light"> 
+    <nav class="navbar navbar-expand-lg navbar-light shadow-5-strong">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <a class="navbar-brand" href="#">
+            <img src="/images/cam.jpg" class="rounded-circle mb-3" alt="..." height="45" width="50">
+          </a>
+          <ul class="navbar-nav">
+            <a class="nav-link" href="{{ url_for('sidenav')}}">Edit</a>
+            <a class="nav-link" href="{{ url_for('mypost')}}">Mypost</a>
+            <a class="nav-link" href="{{ url_for('cartoon')}}">Cartoon </a>
+            <a class="nav-link" href="{{ url_for('about')}}">About</a>
+            <button class="btn" onclick="self.close()">Exit</button>
+          </ul>
+        </div>
+      </nav>
+           <h1>Turn your image into Cartoonify</h1>         
+      </div>
+    </body>
+</html>

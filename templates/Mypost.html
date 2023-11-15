@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>SAVED IMAGES</h1>
+            <div class="my-post">
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/image.png') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/cartoonify.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/foil.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/crop.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/rotate.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/sharpen.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/blur.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/oil.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/sketchlight.jpg') }}" >
+            </div>
+            <div class="pic">
+                <img src="{{ url_for('static', filename='./images/negative.jpg') }}" >
+            </div>
+        </div>
+        <div class="popup-image">
+            <span>&times;</span>
+            <img src="{{ url_for('static', filename='./images/image.png') }}" alt="">
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.my-post img').forEach(image=>{
+                image.onclick=() =>{
+                    document.querySelector('.popup-image').style.display='block';
+                    document.querySelector('.popup-image img').src =image.getAttribute('src');
+                }
+        });
+        document.querySelector('.popup-image span').onclick=()=>{
+            document.querySelector('.popup-image').style.display='none';
+        }
+    </script>
+</body>
+</html>

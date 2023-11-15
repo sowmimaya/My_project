@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    margin-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 90px;
+    width: 70%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .a img {
+    border-radius: 9%;
+    float: right;
+    height: 250px;
+}
+
+.container .a p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+}
+
+.container .b img {
+    border-radius: 9%;
+    float: left;
+    height: 250px;
+}
+
+.container .b p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.container .c img {
+    border-radius: 9%;
+    float: right;
+    height: 250px;
+}
+
+.container .c p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: left;
+}
+
+.container .d img {
+    border-radius: 9%;
+    float: left;
+    height: 250px;
+}
+
+.container .d p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.container .e img {
+    border-radius: 9%;
+    float: right;
+    height: 250px;
+}
+
+.container .e p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: left;
+}
+
+.container .f img {
+    border-radius: 9%;
+    float: left;
+    height: 250px;
+}
+
+.container .f p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.container .g img {
+    border-radius: 9%;
+    float: right;
+    height: 250px;
+}
+
+.container .g p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: left;
+}
+
+.container .h img {
+    border-radius: 9%;
+    float: left;
+    height: 250px;
+}
+
+.container .h p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.container .i img {
+    border-radius: 9%;
+    float: right;
+    height: 250px;
+}
+
+.container .i p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: left;
+}
+
+.container .j img {
+    border-radius: 9%;
+    float: left;
+    height: 250px;
+}
+
+.container .j p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.container .k img {
+    border-radius: 9%;
+    float: right;
+    height: 250px;
+}
+
+.container .k p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: left;
+}
+
+.container .l img {
+    border-radius: 9%;
+    float: left;
+    height: 250px;
+}
+
+.container .l p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.container .m img {
+    border-radius: 9%;
+    float: right;
+    height: 250px;
+}
+
+.container .m p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: left;
+}
+
+.container .n img {
+    border-radius: 9%;
+    float: left;
+    height: 250px;
+}
+
+.container .n p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    text-align: right;
+}
+

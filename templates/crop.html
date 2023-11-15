@@ -1,0 +1,12 @@
+{% extends "sidenav.html" %} {% block content_img %}
+<style>
+  
+</style>
+<center>
+<form id="upload-files"  action="/crop" method="POST" enctype="multipart/form-data">
+  <input type="file" id="file" name="file" >
+  <input type="submit" width="500px" name="submit" value="Crop">
+</form>
+</center>
+
+{% endblock %}
